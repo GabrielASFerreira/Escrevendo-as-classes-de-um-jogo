@@ -1,4 +1,4 @@
-class hero{
+class heroi{
     constructor(nome, idade, classe){
         this.nome = nome
         this.idade = idade
