@@ -7,19 +7,19 @@ class heroi{
     atacar(){
         switch (this.classe) {
             case "mago":
-                console.log(`O ${this.classe} atacou usando magia`);
+                console.log(`${this.classe} atacou usando magia`);
                 break;
             case "guerreiro":
-                console.log(`O ${this.classe} atacou usando espada`);
+                console.log(`${this.classe} atacou usando espada`);
                 break;
             case "monge":
-                console.log(`O ${this.classe} atacou usando artes marciais`);
+                console.log(`${this.classe} atacou usando artes marciais`);
                 break;
             case "ninja":
-                console.log(`O ${this.classe} atacou usando shuriken`);
+                console.log(`${this.classe} atacou usando shuriken`);
                 break;
             default:
-                console.log(`O ${this.classe} atacou usando ataque desconhecido`);
+                console.log(`${this.classe} atacou usando ataque desconhecido`);
                 break;
         }
     }
